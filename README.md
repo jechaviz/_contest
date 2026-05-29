@@ -8,6 +8,14 @@ Current package: `ContestOps AI`, an AI-native operations desk that helps
 founders and small teams turn open opportunities into deployable products,
 submission packets, evidence ledgers, and paid service workflows.
 
+Primary remote: https://github.com/jechaviz/_contest
+
+Product core: https://github.com/jechaviz/contestops_ai
+
+Web demo repo: https://github.com/jechaviz/contestops_ai_web
+
+Local demo URL: http://127.0.0.1:4177/
+
 ## Fechas
 
 - Inicio: 2026-05-19.
@@ -43,6 +51,9 @@ submissions, produce evidencias y ejecuta MVPs de software.
 
 Version productiva objetivo: `v1.0.0`, lista para Devpost, demo, repo, video,
 evidencia financiera, usuarios reales y pruebas de ejecucion continua.
+
+Current slice: `v0.2.0` foundation + V core + web console + WAIBAv draft
+automation + Cloud Run-ready V API.
 
 ## Primer sprint
 

@@ -2,8 +2,8 @@
   "project_name": "ContestOps AI",
   "category": "Entrepreneurship & Job Creation",
   "tagline": "AI-native operations for founders turning opportunities into launches, revenue, and verified submissions.",
-  "repo_url": "TBD",
-  "demo_url": "TBD",
+  "repo_url": "https://github.com/jechaviz/_contest",
+  "demo_url": "TBD - Cloud Run staging target prepared; local QA uses http://127.0.0.1:4177/",
   "video_url": "TBD",
   "google_cloud_products": [
     "Cloud Run",
@@ -37,6 +37,8 @@
     "agent execution logs",
     "API usage records",
     "dashboard screenshots",
-    "submission automation receipts"
+    "submission automation receipts",
+    "https://github.com/jechaviz/contestops_ai",
+    "https://github.com/jechaviz/contestops_ai_web"
   ]
 }

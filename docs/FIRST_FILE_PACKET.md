@@ -35,3 +35,4 @@ This packet is the starting slice for `v0.1.0`.
 - Expected contest remote: `https://github.com/jechaviz/_contest`.
 - Product module remote: `https://github.com/jechaviz/contestops_ai`.
 - Web demo remote: `https://github.com/jechaviz/contestops_ai_web`.
+- Local demo: `http://127.0.0.1:4177/`.

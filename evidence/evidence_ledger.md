@@ -10,23 +10,25 @@ local secure storage, not public repo content.
 - Opportunity package:
   `C:\git\v_projects\contests\worth_it\build_with_gemini_xprize`
 - Google Cloud service: TBD
-- Demo URL: TBD
-- Repo URL: TBD
+- Local demo URL: http://127.0.0.1:4177/
+- Contest repo URL: https://github.com/jechaviz/_contest
+- Product repo URL: https://github.com/jechaviz/contestops_ai
+- Web demo repo URL: https://github.com/jechaviz/contestops_ai_web
 
 ## Receipts
 
 | Receipt | Status | Public path | Private/source path |
 |---|---|---|---|
-| V manifest | planned | `evidence/public/manifest.json` | `C:\git\v_projects\contestops_ai\out` |
-| Gemini call | planned | `evidence/public/gemini_receipt_redacted.json` | `evidence/private/gemini` |
+| V manifest | active | `evidence/public/manifest.json` | `C:\git\v_projects\contestops_ai\out` |
+| Gemini call | active mock receipt | `evidence/public/gemini_receipt_redacted.json` | `evidence/private/gemini` |
 | Google Cloud deploy | planned | `evidence/public/cloud_run_redacted.md` | `evidence/private/google_cloud` |
-| Agent run logs | planned | `evidence/public/agent_runs` | `automation/output` |
+| Agent run logs | active draft trace | `automation/output/devpost_draft_trace.jsonl` | `automation/output` |
 | Revenue May | planned | checksum only | `evidence/private/revenue/may` |
 | Revenue June | planned | checksum only | `evidence/private/revenue/june` |
 | Revenue July | planned | checksum only | `evidence/private/revenue/july` |
 | Revenue August | planned | checksum only | `evidence/private/revenue/august` |
 | User consent | planned | summary only | `evidence/private/users` |
-| Devpost draft | planned | `submission/devpost_payload.json` | `automation/output` |
+| Devpost draft | active | `submission/devpost_payload.json` | `automation/output` |
 | Devpost confirmation | planned | redacted screenshot | `automation/output` |
 
 ## Demo Cases

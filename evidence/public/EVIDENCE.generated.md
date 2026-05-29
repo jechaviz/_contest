@@ -13,7 +13,7 @@
 | Status | Kind | Name | Evidence |
 |---|---|---|---|
 | implemented_mock_and_env | gemini_api | Gemini planning and critique provider | `gemini-smoke command` |
-| planned | google_cloud | Cloud Run, Cloud Logging, Cloud Storage | `deploy receipts` |
+| cloudrun_ready | google_cloud | Cloud Run, Cloud Logging, Cloud Storage | `Dockerfile and deploy/cloudrun-service.yaml` |
 | selected | vimport | Opportunity ingestion and rule extraction | `C:\git\v_projects\vimport` |
 | active | waibav | External form automation and evidence capture | `automation\waiba` |
 | selected | vhub | Governed backend delivery connectors | `C:\git\v_projects\vhub` |
