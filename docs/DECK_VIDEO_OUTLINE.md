@@ -15,16 +15,18 @@ Tone: operational, evidence-first, no marketing fluff.
    and operate follow-up loops.
 5. AI-native operations: Gemini plans and critiques; agents execute checklists,
    form maps, ledgers, QA, and receipts.
-6. Google Cloud: deployed API/app, logs, scheduled jobs, storage, and usage
+6. Competitive wedge: evidence and operations beat generic proposal writers,
+   grant databases, and broad agent demos.
+7. Google Cloud: deployed API/app, logs, scheduled jobs, storage, and usage
    receipts.
-7. Workflow demo: Build with Gemini XPRIZE package generated from source docs.
-8. Business model: paid pilot packages, subscription workspaces, success-based
+8. Workflow demo: Build with Gemini XPRIZE package generated from source docs.
+9. Business model: paid pilot packages, subscription workspaces, success-based
    upgrade options where allowed.
-9. Traction: users, revenue, testimonials, repeated run receipts.
-10. Impact: more founders ship, apply, earn, and create jobs with less
+10. Traction: users, revenue, testimonials, repeated run receipts.
+11. Impact: more founders ship, apply, earn, and create jobs with less
     operational drag.
-11. Evidence: revenue ledger, user ledger, production logs, screenshots.
-12. Ask: judge the live system through demo URL, repo, video, and evidence pack.
+12. Evidence: revenue ledger, user ledger, production logs, screenshots.
+13. Ask: judge the live system through demo URL, repo, video, and evidence pack.
 
 ## Video
 
@@ -37,7 +39,8 @@ Tone: operational, evidence-first, no marketing fluff.
 1:05-1:35: Show agent execution receipts, evidence ledger, and running product
 proof.
 
-1:35-2:05: Show Devpost submission draft and external form automation plan.
+1:35-2:05: Show judge scorecard, competitor battlecard, Devpost draft, and
+external form automation plan.
 
 2:05-2:35: Show users/revenue/cost dashboard and one customer/pilot proof.
 

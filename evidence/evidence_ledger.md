@@ -33,6 +33,8 @@ local secure storage, not public repo content.
 | Devpost confirmation | planned | redacted screenshot | `automation/output` |
 | Paid pilot offer | active | `sales/paid_pilot_offer.md` | customer invoice records |
 | Outreach queue | active | `sales/outreach_queue.csv` | opted-in prospect records |
+| Judge scorecard | active | `docs/JUDGE_SCORECARD.md` | `contestops_ai judge-scorecard` |
+| Competitive strategy | active | `docs/COMPETITIVE_STRATEGY.md` | market review and judge simulation |
 
 ## Demo Cases
 

@@ -55,6 +55,9 @@ evidencia financiera, usuarios reales y pruebas de ejecucion continua.
 Current slice: `v0.2.0` foundation + V core + web console + WAIBAv draft
 automation + Cloud Run-ready V API.
 
+Competitive upgrade: `v0.4.0` judge scorecard, competitor battlecard, paid pilot
+proof wedge, and 10x positioning.
+
 ## Primer sprint
 
 1. Definir vertical: humanitarian ops, devtools agent o grant submission agent.
@@ -70,6 +73,8 @@ automation + Cloud Run-ready V API.
 - [Deck/video outline](docs/DECK_VIDEO_OUTLINE.md)
 - [Evidencia requerida](docs/EVIDENCE_REQUIRED.md)
 - [Riesgos](docs/RISKS.md)
+- [Competitive strategy](docs/COMPETITIVE_STRATEGY.md)
+- [Judge scorecard](docs/JUDGE_SCORECARD.md)
 - [Primer paquete de archivos](docs/FIRST_FILE_PACKET.md)
 - [Automatizacion externa](docs/AUTOMATION_PLAN.md)
 - [Draft de submission](submission/devpost_submission_draft.md)
