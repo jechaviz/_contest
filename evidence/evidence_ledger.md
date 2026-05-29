@@ -31,6 +31,8 @@ local secure storage, not public repo content.
 | User consent | planned | summary only | `evidence/private/users` |
 | Devpost draft | active | `submission/devpost_payload.json` | `automation/output` |
 | Devpost confirmation | planned | redacted screenshot | `automation/output` |
+| Paid pilot offer | active | `sales/paid_pilot_offer.md` | customer invoice records |
+| Outreach queue | active | `sales/outreach_queue.csv` | opted-in prospect records |
 
 ## Demo Cases
 
