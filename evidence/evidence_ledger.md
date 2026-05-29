@@ -20,6 +20,7 @@ local secure storage, not public repo content.
 | Receipt | Status | Public path | Private/source path |
 |---|---|---|---|
 | V manifest | active | `evidence/public/manifest.json` | `C:\git\v_projects\contestops_ai\out` |
+| Official rules scrape | active | `evidence/public/xprize_rules_scrape.json` | VImport scrape of Devpost rules |
 | Gemini call | active mock receipt | `evidence/public/gemini_receipt_redacted.json` | `evidence/private/gemini` |
 | Google Cloud deploy | planned | `evidence/public/cloud_run_redacted.md` | `evidence/private/google_cloud` |
 | Agent run logs | active draft trace | `automation/output/devpost_draft_trace.jsonl` | `automation/output` |

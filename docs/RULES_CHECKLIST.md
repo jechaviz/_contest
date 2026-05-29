@@ -1,6 +1,7 @@
 # Rules Checklist
 
 Source snapshot: 2026-05-29, verified against Devpost rules and overview.
+Public scrape evidence: `evidence/public/xprize_rules_scrape.json`.
 
 Contest: Build with Gemini XPRIZE.
 
