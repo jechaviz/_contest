@@ -1,0 +1,44 @@
+metadata:
+  name: contestops-devpost-live-form
+
+variables:
+  PROJECT_DIR: "${ROOT_PLAYBOOK_DIR}\\..\\.."
+  OUTPUT_DIR: "${PROJECT_DIR}\\automation\\output"
+  TRACE_PATH: "${OUTPUT_DIR}\\devpost_live_form_trace.jsonl"
+  HACKATHON_URL: "https://xprize.devpost.com/"
+  PAYLOAD_PATH: "${PROJECT_DIR}\\submission\\devpost_payload.json"
+  FORM_MAP_PATH: "${PROJECT_DIR}\\submission\\devpost_form_map.yml"
+  FINAL_PACKAGE_READY: "${CONTESTOPS_FINAL_PACKAGE_READY}"
+
+steps:
+  prod:
+    - action: FS.EnsureDir
+      params:
+        path: "${OUTPUT_DIR}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "live_form_start"
+        message: "Opening Devpost form automation session."
+        data:
+          url: "${HACKATHON_URL}"
+          payload: "${PAYLOAD_PATH}"
+          form_map: "${FORM_MAP_PATH}"
+          final_package_ready: "${FINAL_PACKAGE_READY}"
+
+    - action: Browser.Open
+      params:
+        url: "${HACKATHON_URL}"
+        headless: false
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "operator_review"
+        message: "Form session opened for draft fill, review, and final package execution."
+
+  debug:
+    - action: Note
+      params:
+        text: "Devpost live-form playbook is alive."

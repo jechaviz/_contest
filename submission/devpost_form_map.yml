@@ -1,0 +1,45 @@
+form:
+  source: https://xprize.devpost.com/
+  target: Devpost submission draft
+  payload: submission/devpost_payload.json
+
+fields:
+  project_name:
+    selector_hint: "Project name"
+    payload_key: project_name
+  category:
+    selector_hint: "Category"
+    payload_key: category
+  tagline:
+    selector_hint: "Tagline"
+    payload_key: tagline
+  repository_url:
+    selector_hint: "Code repository"
+    payload_key: repo_url
+  demo_url:
+    selector_hint: "Try it out / Demo link"
+    payload_key: demo_url
+  video_url:
+    selector_hint: "Video"
+    payload_key: video_url
+  description:
+    selector_hint: "Description"
+    source_file: submission/devpost_submission_draft.md
+  revenue:
+    selector_hint: "Revenue evidence"
+    payload_key: revenue_evidence
+  users:
+    selector_hint: "User evidence"
+    payload_key: user_evidence
+  running_product:
+    selector_hint: "Product running evidence"
+    payload_key: running_product_evidence
+
+actions:
+  - open_hackathon
+  - ensure_logged_in
+  - open_submission_draft
+  - fill_required_fields
+  - save_draft
+  - capture_receipt
+  - final_submit

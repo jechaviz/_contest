@@ -1,0 +1,48 @@
+metadata:
+  name: contestops-devpost-draft-prepare
+
+variables:
+  PROJECT_DIR: "${ROOT_PLAYBOOK_DIR}\\..\\.."
+  OUTPUT_DIR: "${PROJECT_DIR}\\automation\\output"
+  PAYLOAD_PATH: "${PROJECT_DIR}\\submission\\devpost_payload.json"
+  FORM_MAP_PATH: "${PROJECT_DIR}\\submission\\devpost_form_map.yml"
+  TRACE_PATH: "${OUTPUT_DIR}\\devpost_draft_trace.jsonl"
+
+steps:
+  prod:
+    - action: FS.EnsureDir
+      params:
+        path: "${OUTPUT_DIR}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "draft_prepare_start"
+        message: "Preparing Devpost draft payload and field map."
+        data:
+          payload: "${PAYLOAD_PATH}"
+          form_map: "${FORM_MAP_PATH}"
+
+    - action: FS.Exists
+      register: payload_exists
+      params:
+        path: "${PAYLOAD_PATH}"
+
+    - action: FS.Exists
+      register: form_map_exists
+      params:
+        path: "${FORM_MAP_PATH}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "draft_prepare_complete"
+        message: "Devpost draft assets checked."
+        data:
+          payload_exists: "${payload_exists.exists}"
+          form_map_exists: "${form_map_exists.exists}"
+
+  debug:
+    - action: Note
+      params:
+        text: "Devpost draft preparation playbook is alive."

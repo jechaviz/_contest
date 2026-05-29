@@ -1,0 +1,42 @@
+{
+  "project_name": "ContestOps AI",
+  "category": "Entrepreneurship & Job Creation",
+  "tagline": "AI-native operations for founders turning opportunities into launches, revenue, and verified submissions.",
+  "repo_url": "TBD",
+  "demo_url": "TBD",
+  "video_url": "TBD",
+  "google_cloud_products": [
+    "Cloud Run",
+    "Cloud Logging",
+    "Cloud Storage"
+  ],
+  "gemini_usage": {
+    "required": true,
+    "deployed_call": "Gemini planning and critique call in the production package generator",
+    "receipt_path": "evidence/gemini_call_receipts"
+  },
+  "business_model": "Paid pilot packages and recurring founder operations workspaces.",
+  "revenue_evidence": {
+    "total_revenue_usd": "TBD",
+    "by_month": {
+      "may_2026": "TBD",
+      "june_2026": "TBD",
+      "july_2026": "TBD",
+      "august_2026": "TBD"
+    },
+    "related_party_revenue_usd": "TBD",
+    "costs_usd": "TBD",
+    "marketing_spend_usd": "TBD"
+  },
+  "user_evidence": {
+    "individual_users": "TBD",
+    "breakdown": "Founders, SMB operators, and grant/contest teams.",
+    "testimonials": "TBD"
+  },
+  "running_product_evidence": [
+    "agent execution logs",
+    "API usage records",
+    "dashboard screenshots",
+    "submission automation receipts"
+  ]
+}
