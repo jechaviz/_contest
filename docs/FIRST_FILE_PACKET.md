@@ -15,17 +15,21 @@ This packet is the starting slice for `v0.5.0`.
 - `docs/PROOF_SPRINT.md`: 14-day buyer/user/cloud/Gemini proof sprint.
 - `docs/COMPETITOR_BATTLEPLAN.md`: head-to-head judge strategy.
 - `docs/JUDGE_TEST_GUIDE.md`: judge verification path.
+- `docs/FOUNDER_PROFILE_EVIDENCE.md`: redacted founder and dogfood evidence.
+- `docs/PROFILE_PRIVACY_BOUNDARY.md`: public/private data boundary.
 - `submission/devpost_submission_draft.md`: English Devpost answer draft.
 - `submission/devpost_payload.json`: structured field payload.
 - `submission/devpost_form_map.yml`: form-field mapping.
 - `evidence/evidence_ledger.md`: living evidence index.
 - `automation/waiba/devpost_draft_prepare.playbook.yml`: draft prep playbook.
+- `automation/waiba/profile_evidence_prepare.playbook.yml`: profile proof
+  receipt playbook.
 
 ## Product Module
 
 - `C:\git\v_projects\contestops_ai`: V CLI and reusable domain module.
 - Commands: `manifest`, `checklist`, `evidence`, `judge-scorecard`,
-  `proof-sprint`, `gemini-smoke`.
+  `proof-sprint`, `founder-proof`, `gemini-smoke`.
 - Tests: manifest/checklist evidence generation.
 
 ## Web Demo

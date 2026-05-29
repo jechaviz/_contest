@@ -37,6 +37,10 @@ local secure storage, not public repo content.
 | Competitive strategy | active | `docs/COMPETITIVE_STRATEGY.md` | market review and judge simulation |
 | Proof sprint | active | `docs/PROOF_SPRINT.md` | `contestops_ai proof-sprint` |
 | Judge test guide | active | `docs/JUDGE_TEST_GUIDE.md` | CLI, Playwright, WAIBAv receipts |
+| Founder profile proof | active redacted | `evidence/public/FOUNDER_PROOF.generated.md` | `C:\git\customers\yo\profile` |
+| FacturaMX AI Studio access receipt | active access-gated | `evidence/public/facturamx_ai_studio_scrape.json` | VImport scrape of AI Studio URL |
+| Profile evidence WAIBAv trace | active | `automation/output/profile_evidence_trace.jsonl` | `automation/waiba/profile_evidence_prepare.playbook.yml` |
+| Profile privacy boundary | active | `docs/PROFILE_PRIVACY_BOUNDARY.md` | private data policy |
 
 ## Demo Cases
 
@@ -45,3 +49,12 @@ local secure storage, not public repo content.
 | Build with Gemini XPRIZE | local + Devpost rules | active | this package |
 | RAISE the STAKES | `contests/worth_it` | queued | TBD |
 | Alibaba CoCreate | `contests/worth_it` | queued | TBD |
+
+## Internal Dogfood Cases
+
+| Case | Status | Public evidence | Private/source path |
+|---|---|---|---|
+| FacturaMX SaaS | access-gated | `evidence/public/facturamx_ai_studio_scrape.json` | `C:\git\customers\yo\facturamx-saas` |
+| Odoo automation workspace | active private | `docs/FOUNDER_PROFILE_EVIDENCE.md` | `C:\git\customers\yo\odoo_yo` |
+| Odoo RPP tutorial/QA | active private | `docs/FOUNDER_PROFILE_EVIDENCE.md` | `C:\git\customers\yo\odoo_rpp` |
+| AI tutorial maker | active private | `docs/FOUNDER_PROFILE_EVIDENCE.md` | `C:\git\customers\yo\ai_tutorial_maker` |

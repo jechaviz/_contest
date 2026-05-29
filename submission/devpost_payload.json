@@ -45,12 +45,26 @@
     "breakdown": "Founders, SMB operators, and grant/contest teams.",
     "testimonials": "TBD"
   },
+  "founder_profile_evidence": {
+    "public_summary": "Redacted founder/operator proof from local CV, project, and automation workspace evidence.",
+    "public_path": "evidence/public/FOUNDER_PROOF.generated.md",
+    "privacy_boundary": "docs/PROFILE_PRIVACY_BOUNDARY.md",
+    "dogfood_cases": [
+      "FacturaMX SaaS",
+      "Odoo automation workspace",
+      "Odoo RPP tutorial/QA",
+      "AI tutorial maker",
+      "VImport/WAIBAv/Veloclaw local agent ecosystem"
+    ],
+    "not_counted_as_arms_length_revenue": true
+  },
   "running_product_evidence": [
     "agent execution logs",
     "API usage records",
     "dashboard screenshots",
     "submission automation receipts",
     "proof sprint scoreboard",
+    "redacted founder profile proof",
     "https://github.com/jechaviz/contestops_ai",
     "https://github.com/jechaviz/contestops_ai_web"
   ]

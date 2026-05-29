@@ -24,6 +24,7 @@ Version: `v0.5.0`.
 | User proof | Feedback template, consent slots, case-study requirement. |
 | Submission readiness | Devpost draft, form map, WAIBAv dry-run trace, final-submit gate. |
 | Competitive edge | Judge scorecard, competitor battlecard, proof sprint metrics. |
+| Founder/operator proof | Redacted founder proof, dogfood cases, privacy boundary. |
 
 ## Commands
 
@@ -34,6 +35,7 @@ v test tests
 v run . manifest
 v run . judge-scorecard
 v run . proof-sprint
+v run . founder-proof
 v run . gemini-smoke --mock
 ```
 

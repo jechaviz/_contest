@@ -1,0 +1,12 @@
+{
+  "schema": "contestops.redacted_vimport_receipt.v1",
+  "source_tool": "vimport",
+  "target": "https://ai.studio/apps/0813f909-461d-46f8-bdbb-b169d82221c8",
+  "status_code": 200,
+  "observed_title": "Sign in - Google Accounts",
+  "access_gate": "google_account_sign_in",
+  "gap_id": "challenge_or_access_gap",
+  "decision": "Treat as authenticated handoff evidence, not a public demo URL.",
+  "raw_private_ref": "evidence/private/vimport/facturamx_ai_studio_scrape.raw.json",
+  "public_safe": true
+}

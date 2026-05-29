@@ -1,0 +1,62 @@
+metadata:
+  name: contestops-profile-evidence-prepare
+
+variables:
+  PROJECT_DIR: "${ROOT_PLAYBOOK_DIR}/../.."
+  OUTPUT_DIR: "${PROJECT_DIR}/automation/output"
+  TRACE_PATH: "${OUTPUT_DIR}/profile_evidence_trace.jsonl"
+  FOUNDER_PROOF_PATH: "${PROJECT_DIR}/evidence/public/FOUNDER_PROOF.generated.md"
+  PRIVACY_BOUNDARY_PATH: "${PROJECT_DIR}/docs/PROFILE_PRIVACY_BOUNDARY.md"
+  PROFILE_EVIDENCE_PATH: "${PROJECT_DIR}/docs/FOUNDER_PROFILE_EVIDENCE.md"
+  VIMPORT_RECEIPT_PATH: "${PROJECT_DIR}/evidence/public/facturamx_ai_studio_scrape.json"
+
+steps:
+  prod:
+    - action: FS.EnsureDir
+      params:
+        path: "${OUTPUT_DIR}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "profile_evidence_prepare_start"
+        message: "Checking redacted founder profile evidence assets."
+        data:
+          founder_proof: "${FOUNDER_PROOF_PATH}"
+          profile_evidence: "${PROFILE_EVIDENCE_PATH}"
+
+    - action: FS.Exists
+      register: founder_proof_exists
+      params:
+        path: "${FOUNDER_PROOF_PATH}"
+
+    - action: FS.Exists
+      register: privacy_boundary_exists
+      params:
+        path: "${PRIVACY_BOUNDARY_PATH}"
+
+    - action: FS.Exists
+      register: profile_evidence_exists
+      params:
+        path: "${PROFILE_EVIDENCE_PATH}"
+
+    - action: FS.Exists
+      register: vimport_receipt_exists
+      params:
+        path: "${VIMPORT_RECEIPT_PATH}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "profile_evidence_prepare_complete"
+        message: "Profile evidence assets checked with public/private boundary."
+        data:
+          founder_proof_exists: "${founder_proof_exists}"
+          privacy_boundary_exists: "${privacy_boundary_exists}"
+          profile_evidence_exists: "${profile_evidence_exists}"
+          vimport_receipt_exists: "${vimport_receipt_exists}"
+
+  debug:
+    - action: Note
+      params:
+        text: "Profile evidence preparation playbook is alive."

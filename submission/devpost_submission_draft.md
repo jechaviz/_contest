@@ -41,6 +41,11 @@ outreach targets, 5 discovery calls, 3 paid pilots or signed invoices, 3
 env-backed Gemini receipts, a Cloud Run receipt, a redacted case study, and a
 Devpost dry-run trace with a final-submit gate.
 
+Founder/operator evidence is packaged separately as redacted proof. The local
+profile supports leadership, architecture, AI automation, fiscal software, and
+dogfooding claims through public-safe summaries, while fiscal identity,
+credentials, documents, and raw OCR stay private.
+
 ## How AI Runs The Business
 
 Gemini is used for planning, critique, prioritization, evidence synthesis, and
@@ -77,4 +82,5 @@ Judge credentials: TBD, provided privately if needed.
 - Generated manifest: `evidence/public/manifest.json`.
 - Generated scorecard: `evidence/public/JUDGE_SCORECARD.generated.md`.
 - Generated proof sprint: `evidence/public/PROOF_SPRINT.generated.md`.
+- Generated founder proof: `evidence/public/FOUNDER_PROOF.generated.md`.
 - Judge guide: `docs/JUDGE_TEST_GUIDE.md`.

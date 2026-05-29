@@ -41,3 +41,10 @@ ContestOps AI turns deadline pressure into a repeatable AI operations workflow w
 - Env-backed Gemini receipts: 0/3 (planned).
 - Cloud Run receipts: 0/1 (planned).
 - Submission dry-runs: 1/2 (active).
+
+## Founder Proof
+
+- Senior architecture and technical leadership: public_redacted.
+- AI, automation, and Gemini experience: public_redacted.
+- Fiscal software and enterprise integrations: public_redacted.
+- Operational profile database: private_redacted.

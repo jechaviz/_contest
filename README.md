@@ -61,6 +61,10 @@ proof wedge, and 10x positioning.
 Proof sprint upgrade: `v0.5.0` judge test guide, generated proof sprint,
 competition battleplan, and web Proof panel.
 
+Profile evidence upgrade: `v0.5.1` redacted founder profile proof, dogfood
+case inventory, privacy boundary, VImport access-gate receipt, Veloclaw
+snapshot receipt, and WAIBAv profile evidence playbook.
+
 ## Primer sprint
 
 1. Definir vertical: humanitarian ops, devtools agent o grant submission agent.
@@ -81,6 +85,8 @@ competition battleplan, and web Proof panel.
 - [Proof sprint](docs/PROOF_SPRINT.md)
 - [Competitor battleplan](docs/COMPETITOR_BATTLEPLAN.md)
 - [Judge test guide](docs/JUDGE_TEST_GUIDE.md)
+- [Founder profile evidence](docs/FOUNDER_PROFILE_EVIDENCE.md)
+- [Profile privacy boundary](docs/PROFILE_PRIVACY_BOUNDARY.md)
 - [Primer paquete de archivos](docs/FIRST_FILE_PACKET.md)
 - [Automatizacion externa](docs/AUTOMATION_PLAN.md)
 - [Draft de submission](submission/devpost_submission_draft.md)

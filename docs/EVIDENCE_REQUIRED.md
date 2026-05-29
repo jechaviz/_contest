@@ -16,6 +16,7 @@ public repo.
 - Text description and category narrative.
 - Testing instructions for judges.
 - Proof sprint scoreboard and generated judge scorecard.
+- Redacted founder profile proof and dogfood case inventory.
 
 ## Private Verification Evidence
 
@@ -58,6 +59,9 @@ public repo.
   confirmation screenshot.
 - `proof_sprint_receipts`: outreach target list, call notes, signed pilot or
   invoice evidence, case-study redactions, and judge guide checksum.
+- `profile_proof_receipts`: redacted CV/project signals, VImport access-gate
+  scrape, Veloclaw snapshot receipt, WAIBAv profile evidence trace, and private
+  checksum references only.
 
 ## Evidence Handling
 
