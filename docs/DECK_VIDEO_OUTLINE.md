@@ -15,14 +15,15 @@ Tone: operational, evidence-first, no marketing fluff.
    and operate follow-up loops.
 5. AI-native operations: Gemini plans and critiques; agents execute checklists,
    form maps, ledgers, QA, and receipts.
-6. Competitive wedge: evidence and operations beat generic proposal writers,
-   grant databases, and broad agent demos.
+6. Competitive wedge: proof sprint, evidence, and operations beat generic
+   proposal writers, grant databases, and broad agent demos.
 7. Google Cloud: deployed API/app, logs, scheduled jobs, storage, and usage
    receipts.
 8. Workflow demo: Build with Gemini XPRIZE package generated from source docs.
 9. Business model: paid pilot packages, subscription workspaces, success-based
    upgrade options where allowed.
-10. Traction: users, revenue, testimonials, repeated run receipts.
+10. Traction: proof sprint scoreboard, users, revenue, testimonials, repeated
+    run receipts.
 11. Impact: more founders ship, apply, earn, and create jobs with less
     operational drag.
 12. Evidence: revenue ledger, user ledger, production logs, screenshots.
@@ -30,7 +31,8 @@ Tone: operational, evidence-first, no marketing fluff.
 
 ## Video
 
-0:00-0:10: Open with dashboard on the Build with Gemini XPRIZE workspace.
+0:00-0:10: Open with dashboard on the Build with Gemini XPRIZE workspace and
+the prod readiness meter.
 
 0:10-0:35: Show intake and rules extraction from the opportunity package.
 
@@ -39,8 +41,8 @@ Tone: operational, evidence-first, no marketing fluff.
 1:05-1:35: Show agent execution receipts, evidence ledger, and running product
 proof.
 
-1:35-2:05: Show judge scorecard, competitor battlecard, Devpost draft, and
-external form automation plan.
+1:35-2:05: Show proof sprint, judge scorecard, competitor battlecard, Devpost
+draft, and external form automation plan.
 
 2:05-2:35: Show users/revenue/cost dashboard and one customer/pilot proof.
 
@@ -55,6 +57,7 @@ external form automation plan.
 - Gemini call receipt.
 - Google Cloud logs or deployment screen.
 - WAIBAv automation trace.
+- Proof sprint panel.
 - Revenue/user evidence ledger.
 - Devpost draft fields.
 - Repo/test instructions.

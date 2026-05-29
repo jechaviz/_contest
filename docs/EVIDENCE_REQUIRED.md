@@ -15,6 +15,7 @@ public repo.
 - Redacted API usage receipts.
 - Text description and category narrative.
 - Testing instructions for judges.
+- Proof sprint scoreboard and generated judge scorecard.
 
 ## Private Verification Evidence
 
@@ -55,6 +56,8 @@ public repo.
   status.
 - `submission_receipts`: form URL, field map version, draft/save/submit status,
   confirmation screenshot.
+- `proof_sprint_receipts`: outreach target list, call notes, signed pilot or
+  invoice evidence, case-study redactions, and judge guide checksum.
 
 ## Evidence Handling
 

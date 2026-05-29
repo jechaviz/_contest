@@ -20,7 +20,9 @@ AI-native operations, with Gemini planning and Google Cloud deployment receipts.
    collect run receipts.
 6. Operate: daily jobs update opportunity status, customer proof, revenue
    ledgers, and production evidence.
-7. Submit: the app maps the package to Devpost fields and captures confirmation.
+7. Prove: the proof sprint tracks buyer, user, Cloud Run, Gemini, and draft
+   receipts against judge-visible targets.
+8. Submit: the app maps the package to Devpost fields and captures confirmation.
 
 ## First Demo Scenario
 
@@ -33,6 +35,7 @@ Output:
 - revenue/user evidence ledger,
 - generated Devpost draft,
 - automation playbook for draft form filling,
+- proof sprint and competitor battlecard,
 - dashboard showing AI decisions and product readiness.
 
 ## Running Components
@@ -52,6 +55,7 @@ Output:
 - [ ] WAIBAv validates draft-submission automation.
 - [ ] Evidence ledger has monthly revenue/user/cost slots.
 - [ ] Devpost form map covers required fields.
+- [ ] Proof sprint panel shows targets, receipts, and win conditions.
 - [ ] At least 3 real local contest cases are processed as examples.
 - [ ] Product can be explained in a sub-3-minute video.
 

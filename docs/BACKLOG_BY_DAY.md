@@ -12,7 +12,8 @@ evidence, video, form review, and Devpost upload before 2026-08-17 1:00 PM PDT.
 - `v0.3.0` MVP workflow: opportunity ingestion, rules extraction, evidence
   ledger, submission builder.
 - `v0.4.0` Public demo: Vue console, V backend, demo scenario, screenshots.
-- `v0.5.0` Paid pilot motion: offer page, outreach, CRM, invoice/revenue ledger.
+- `v0.5.0` Competitive proof sprint: offer page, outreach, CRM,
+  invoice/revenue ledger, judge guide, and battleplan.
 - `v0.6.0` AI-native operations: continuous agents, decisions, playbooks,
   dashboard receipts.
 - `v0.7.0` Customer proof: users, testimonials, consent, cohort metrics.
@@ -25,7 +26,7 @@ evidence, video, form review, and Devpost upload before 2026-08-17 1:00 PM PDT.
 
 | Day | Date | Target |
 |---:|---|---|
-| 0 | 2026-05-29 | Create rules checklist, product architecture, initial docs, V module, web app shell. |
+| 0 | 2026-05-29 | Create rules checklist, product architecture, initial docs, V module, web app shell, scorecard, and proof sprint. |
 | 1 | 2026-05-30 | Implement CLI manifest/checklist generation and mock Gemini planner. |
 | 2 | 2026-05-31 | Build Vue operations console with local evidence fixtures. |
 | 3 | 2026-06-01 | Add WAIBAv draft-submission automation and validate playbooks. |

@@ -52,11 +52,14 @@ submissions, produce evidencias y ejecuta MVPs de software.
 Version productiva objetivo: `v1.0.0`, lista para Devpost, demo, repo, video,
 evidencia financiera, usuarios reales y pruebas de ejecucion continua.
 
-Current slice: `v0.2.0` foundation + V core + web console + WAIBAv draft
-automation + Cloud Run-ready V API.
+Current slice: `v0.5.0` foundation + V core + web console + WAIBAv draft
+automation + Cloud Run-ready V API + competitive proof sprint.
 
 Competitive upgrade: `v0.4.0` judge scorecard, competitor battlecard, paid pilot
 proof wedge, and 10x positioning.
+
+Proof sprint upgrade: `v0.5.0` judge test guide, generated proof sprint,
+competition battleplan, and web Proof panel.
 
 ## Primer sprint
 
@@ -75,6 +78,9 @@ proof wedge, and 10x positioning.
 - [Riesgos](docs/RISKS.md)
 - [Competitive strategy](docs/COMPETITIVE_STRATEGY.md)
 - [Judge scorecard](docs/JUDGE_SCORECARD.md)
+- [Proof sprint](docs/PROOF_SPRINT.md)
+- [Competitor battleplan](docs/COMPETITOR_BATTLEPLAN.md)
+- [Judge test guide](docs/JUDGE_TEST_GUIDE.md)
 - [Primer paquete de archivos](docs/FIRST_FILE_PACKET.md)
 - [Automatizacion externa](docs/AUTOMATION_PLAN.md)
 - [Draft de submission](submission/devpost_submission_draft.md)

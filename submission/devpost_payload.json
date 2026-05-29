@@ -16,6 +16,18 @@
     "receipt_path": "evidence/gemini_call_receipts"
   },
   "business_model": "Paid pilot packages and recurring founder operations workspaces.",
+  "proof_sprint": {
+    "window": "2026-06-01 to 2026-06-15",
+    "targets": {
+      "qualified_outreach": 20,
+      "discovery_calls": 5,
+      "paid_pilots_or_invoices": 3,
+      "env_gemini_receipts": 3,
+      "cloud_run_receipts": 1,
+      "devpost_dry_runs": 2
+    },
+    "public_path": "evidence/public/PROOF_SPRINT.generated.md"
+  },
   "revenue_evidence": {
     "total_revenue_usd": "TBD",
     "by_month": {
@@ -38,6 +50,7 @@
     "API usage records",
     "dashboard screenshots",
     "submission automation receipts",
+    "proof sprint scoreboard",
     "https://github.com/jechaviz/contestops_ai",
     "https://github.com/jechaviz/contestops_ai_web"
   ]

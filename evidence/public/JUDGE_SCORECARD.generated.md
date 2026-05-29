@@ -1,13 +1,13 @@
 # ContestOps AI Judge Scorecard
 
-Overall competitive score: 75/100
+Overall competitive score: 78/100
 
 | Dimension | Score | Weight | Evidence | Gap |
 |---|---:|---:|---|---|
-| Business Viability | 58 | 35 | `sales/paid_pilot_offer.md and revenue ledger template` | Replace TBD revenue with independent paid pilots. |
-| AI-Native Operations | 86 | 35 | `V CLI, Gemini provider, WAIBAv traces, VImport scrape` | Run env-backed Gemini and Cloud receipts in production. |
-| Category Impact | 82 | 20 | `founder operations workflow and paid pilot package` | Show user outcomes: hours saved, submissions shipped, jobs enabled. |
-| Differentiation | 88 | 10 | `evidence ledger, form maps, automated receipts` | Make one customer case study public and redacted. |
+| Business Viability | 62 | 35 | `paid pilot offer, outreach queue, proof sprint, revenue ledger template` | Close arms-length paid pilots and record payment or invoice receipts. |
+| AI-Native Operations | 88 | 35 | `V CLI, Gemini provider, WAIBAv traces, VImport scrape, proof sprint renderer` | Run env-backed Gemini and Cloud receipts in production. |
+| Category Impact | 84 | 20 | `founder operations workflow and paid pilot package` | Show user outcomes: hours saved, submissions shipped, jobs enabled. |
+| Differentiation | 90 | 10 | `evidence ledger, form maps, automated receipts, competitor rebuttals` | Make one customer case study public and redacted. |
 
 ## Competitor Battlecard
 
@@ -20,7 +20,7 @@ Overall competitive score: 75/100
 
 ## Highest-Leverage Next Moves
 
-- Close 3 independent paid pilots before 2026-06-15.
+- Run the 14-day proof sprint: 20 targets, 5 calls, 3 paid pilots, 3 feedback records.
 - Deploy V API to Cloud Run and capture Cloud Logging receipts.
 - Run one env-backed Gemini call per production package and store redacted receipts.
 - Publish 3 redacted case studies with before/after time saved.

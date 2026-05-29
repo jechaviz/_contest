@@ -36,6 +36,11 @@ itself: the system reads the rules, builds the execution plan, creates the
 submission package, prepares the Devpost payload, and tracks the revenue/user
 evidence needed to prove a real business.
 
+The competitive package now includes a 14-day proof sprint: 20 qualified
+outreach targets, 5 discovery calls, 3 paid pilots or signed invoices, 3
+env-backed Gemini receipts, a Cloud Run receipt, a redacted case study, and a
+Devpost dry-run trace with a final-submit gate.
+
 ## How AI Runs The Business
 
 Gemini is used for planning, critique, prioritization, evidence synthesis, and
@@ -66,3 +71,10 @@ submission, and automation runs.
 5. Review redacted agent receipts and Google Cloud/Gemini usage evidence.
 
 Judge credentials: TBD, provided privately if needed.
+
+## Judge Testing Evidence
+
+- Generated manifest: `evidence/public/manifest.json`.
+- Generated scorecard: `evidence/public/JUDGE_SCORECARD.generated.md`.
+- Generated proof sprint: `evidence/public/PROOF_SPRINT.generated.md`.
+- Judge guide: `docs/JUDGE_TEST_GUIDE.md`.

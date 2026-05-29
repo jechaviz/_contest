@@ -1,6 +1,6 @@
 # First File Packet
 
-This packet is the starting slice for `v0.1.0`.
+This packet is the starting slice for `v0.5.0`.
 
 ## Opportunity Subrepo
 
@@ -12,6 +12,9 @@ This packet is the starting slice for `v0.1.0`.
 - `docs/EVIDENCE_REQUIRED.md`: public/private evidence model.
 - `docs/RISKS.md`: risks and mitigations.
 - `docs/AUTOMATION_PLAN.md`: external form and submission automation.
+- `docs/PROOF_SPRINT.md`: 14-day buyer/user/cloud/Gemini proof sprint.
+- `docs/COMPETITOR_BATTLEPLAN.md`: head-to-head judge strategy.
+- `docs/JUDGE_TEST_GUIDE.md`: judge verification path.
 - `submission/devpost_submission_draft.md`: English Devpost answer draft.
 - `submission/devpost_payload.json`: structured field payload.
 - `submission/devpost_form_map.yml`: form-field mapping.
@@ -21,14 +24,16 @@ This packet is the starting slice for `v0.1.0`.
 ## Product Module
 
 - `C:\git\v_projects\contestops_ai`: V CLI and reusable domain module.
-- Commands: `manifest`, `checklist`, `evidence`, `gemini-smoke`.
+- Commands: `manifest`, `checklist`, `evidence`, `judge-scorecard`,
+  `proof-sprint`, `gemini-smoke`.
 - Tests: manifest/checklist evidence generation.
 
 ## Web Demo
 
 - `C:\git\websites\contestops_ai`: Vue3 CDN + SFC + UnoCSS operations console.
 - No build step is required for the first demo.
-- The app consumes local fixture data that mirrors the V manifest.
+- The app consumes local fixture data that mirrors the V manifest and shows the
+  Proof/Battle views.
 
 ## Publish Targets
 

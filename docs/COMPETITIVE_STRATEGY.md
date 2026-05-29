@@ -1,6 +1,6 @@
 # Competitive Strategy
 
-Version: `v0.4.0`.
+Version: `v0.5.0`.
 
 Goal: beat stronger-looking AI startups by making ContestOps AI the clearest
 example of a business operated by AI, not just a product that contains AI.
@@ -36,10 +36,21 @@ The product should prove four things in one run:
 
 - Open with the operations console, not a landing page.
 - Show official rules scrape and generated checklist.
+- Show proof sprint targets before claims about traction.
 - Show judge scorecard and competitor battlecard.
 - Show Devpost payload and WAIBAv trace.
 - Show paid pilot offer and revenue ledger slots.
 - Show Cloud Run API and Gemini receipt path.
+
+## Head-To-Head Judge Moves
+
+| If a competitor shows | Respond with |
+|---|---|
+| More polished UI | Run the proof sprint panel and show evidence slots, receipts, and final-submit gates. |
+| Better early revenue | Show the paid pilot offer, outreach queue, invoice ledger, and exact sprint to 3 pilots. |
+| Better agent demo | Show VImport source ingestion, Gemini planning, WAIBAv form prep, and generated Devpost payload in one workflow. |
+| Bigger market claim | Show the repeatable founder-ops wedge across contests, grants, RFPs, and startup applications. |
+| Deeper model claims | Show deployed Gemini usage receipts and judge-testable business artifacts instead of model theater. |
 
 ## What Must Be True By `v1.0.0`
 
