@@ -39,8 +39,8 @@ steps:
         name: "draft_prepare_complete"
         message: "Devpost draft assets checked."
         data:
-          payload_exists: "${payload_exists.exists}"
-          form_map_exists: "${form_map_exists.exists}"
+          payload_exists: "${payload_exists}"
+          form_map_exists: "${form_map_exists}"
 
   debug:
     - action: Note
