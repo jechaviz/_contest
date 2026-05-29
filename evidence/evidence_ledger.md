@@ -41,6 +41,7 @@ local secure storage, not public repo content.
 | FacturaMX AI Studio access receipt | active access-gated | `evidence/public/facturamx_ai_studio_scrape.json` | VImport scrape of AI Studio URL |
 | Profile evidence WAIBAv trace | active | `automation/output/profile_evidence_trace.jsonl` | `automation/waiba/profile_evidence_prepare.playbook.yml` |
 | Profile privacy boundary | active | `docs/PROFILE_PRIVACY_BOUNDARY.md` | private data policy |
+| External feasibility probe | active | `evidence/public/EXTERNAL_FEASIBILITY_PROBE.md` | local env/gcloud checks |
 
 ## Demo Cases
 
