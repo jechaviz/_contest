@@ -1,0 +1,2 @@
+{"ts":"2026-05-29 19:55:50","name":"cloudrun_deploy_probe_start","level":"info","message":"Checking Cloud Run deployment automation readiness.","data":{"deploy_script":"C:/git/v_projects/contestops_ai/deploy/cloudrun_deploy.ps1"}}
+{"ts":"2026-05-29 19:55:50","name":"cloudrun_deploy_probe_complete","level":"info","message":"Cloud Run deploy script checked.","data":{"deploy_script_exists":true}}

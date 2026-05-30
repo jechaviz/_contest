@@ -6,7 +6,7 @@ Category: Entrepreneurship & Job Creation
 
 Repository: TBD after publish target is created and judge access is configured.
 
-Demo URL: TBD after Google Cloud staging deployment.
+Demo URL: https://jechaviz.github.io/contestops_ai_web/
 
 Video URL: TBD after final public upload.
 

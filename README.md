@@ -14,6 +14,8 @@ Product core: https://github.com/jechaviz/contestops_ai
 
 Web demo repo: https://github.com/jechaviz/contestops_ai_web
 
+Public demo URL: https://jechaviz.github.io/contestops_ai_web/
+
 Local demo URL: http://127.0.0.1:4177/
 
 ## Fechas

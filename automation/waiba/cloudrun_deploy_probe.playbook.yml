@@ -1,0 +1,40 @@
+metadata:
+  name: contestops-cloudrun-deploy-probe
+
+variables:
+  PROJECT_DIR: "${ROOT_PLAYBOOK_DIR}/../.."
+  OUTPUT_DIR: "${PROJECT_DIR}/automation/output"
+  TRACE_PATH: "${OUTPUT_DIR}/cloudrun_deploy_probe_trace.jsonl"
+  DEPLOY_SCRIPT: "C:/git/v_projects/contestops_ai/deploy/cloudrun_deploy.ps1"
+
+steps:
+  prod:
+    - action: FS.EnsureDir
+      params:
+        path: "${OUTPUT_DIR}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "cloudrun_deploy_probe_start"
+        message: "Checking Cloud Run deployment automation readiness."
+        data:
+          deploy_script: "${DEPLOY_SCRIPT}"
+
+    - action: FS.Exists
+      register: deploy_script_exists
+      params:
+        path: "${DEPLOY_SCRIPT}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "cloudrun_deploy_probe_complete"
+        message: "Cloud Run deploy script checked."
+        data:
+          deploy_script_exists: "${deploy_script_exists}"
+
+  debug:
+    - action: Note
+      params:
+        text: "Cloud Run deploy probe playbook is alive."
