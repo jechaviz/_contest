@@ -1,0 +1,33 @@
+{
+  "schema": "vimport.generic_scrape.v1",
+  "run_id": "2026-05-29_210214",
+  "target": "https://secure.devpost.com/users/register",
+  "status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "body_bytes": 38075,
+  "title": "Devpost",
+  "description": "",
+  "headings": ["Join Devpost","Find and participate in hackathons to improve your skills and win prizes"],
+  "links": [
+    {"text":"upgrade your browser","href":"http://browsehappy.com/"},
+    {"text":"Log in","href":"https://secure.devpost.com/users/login?ref=signup-login&return_to=https%3A%2F%2Fdevpost.com%2F"},
+    {"text":"Sign up with GitHub","href":"https://devpost.com/authentications/initiate/github?return_to=https%3A%2F%2Fdevpost.com%2F"},
+    {"text":"Sign up with Facebook","href":"https://devpost.com/authentications/initiate/facebook?return_to=https%3A%2F%2Fdevpost.com%2F"},
+    {"text":"Sign up with Google","href":"https://devpost.com/authentications/initiate/google_oauth2?return_to=https%3A%2F%2Fdevpost.com%2F"},
+    {"text":"Sign up with LinkedIn","href":"https://devpost.com/authentications/initiate/linkedin?return_to=https%3A%2F%2Fdevpost.com%2F"},
+    {"text":"sign up with email","href":"#"},
+    {"text":"Terms of Service","href":"https://info.devpost.com/terms"},
+    {"text":"Privacy Policy","href":"https://info.devpost.com/privacy"}
+  ],
+  "images": [
+  ],
+  "tables": [
+  ],
+  "json_ld_count": 0,
+  "json_ld": [],
+  "text": "Devpost We've detected that you are using an unsupported browser. Please upgrade your browser to Internet Explorer 10 or higher. Join Devpost Find and participate in hackathons to improve your skills and win prizes Already have an account? Log in Sign up with GitHub Sign up with Facebook Sign up with Google Sign up with LinkedIn or sign up with email First name Last name Email Password Sign up with email Subscribe me to Devpost's weekly newsletter (hackathons, community updates, and awesome projects) By creating an account, you agree to our Terms of Service and Privacy Policy.",
+  "gaps": [
+    {"id":"challenge_or_access_gap","kind":"access_signal","evidence":"page contains `captcha`","next_attempt_action":"ai_record_gap_and_choose_supported_route","ai_repair_hint":"Use the gap receipt to choose a supported route such as visible handoff, provided export, or configured session."}
+  ],
+  "ai_gap_repair": {"enabled":true,"progressive":true,"automatic_next_attempt":true,"attempt":1,"next_attempt":2,"mode":"ai_gap_repair_next_attempt","gap_ids":["challenge_or_access_gap"],"actions":["ai_record_gap_and_choose_supported_route","rewrite_extraction_hints_from_gap_receipt"],"receipt":"ai_gap_repair_plan"}
+}

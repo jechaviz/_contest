@@ -1,0 +1,111 @@
+metadata:
+  name: contestops-browser-login-refs-prepare
+
+variables:
+  PROJECT_DIR: "${ROOT_PLAYBOOK_DIR}/../.."
+  OUTPUT_DIR: "${PROJECT_DIR}/automation/output"
+  TRACE_PATH: "${OUTPUT_DIR}/browser_login_refs_trace.jsonl"
+  PROFILE_PATH: "C:/git/customers/yo/profile/jecha_profile.yml"
+  BROWSER_REFS_VAULT_PATH: "C:/git/customers/yo/profile/private/browser_login_refs.local.yml"
+  DEFAULT_EDGE_LOGIN_STORE: "C:/Users/jecha/AppData/Local/Microsoft/Edge/User Data/Default/Login Data"
+  PROFILE1_EDGE_LOGIN_STORE: "C:/Users/jecha/AppData/Local/Microsoft/Edge/User Data/Profile 1/Login Data"
+  BROWSER_RECEIPT_PATH: "${PROJECT_DIR}/evidence/public/BROWSER_LOGIN_REFERENCE_RECEIPT.md"
+  EDGE_HANDOFF_SCRIPT_PATH: "${PROJECT_DIR}/automation/browser/open_edge_auth_portals.ps1"
+  EDGE_HANDOFF_RECEIPT_PATH: "${PROJECT_DIR}/evidence/public/EDGE_AUTH_HANDOFF_RECEIPT.md"
+  EDGE_HANDOFF_RUNBOOK_PATH: "${PROJECT_DIR}/runbooks/EDGE_PROVIDER_AUTH_HANDOFF.md"
+  XPRIZE_HOME_SCRAPE_PATH: "${PROJECT_DIR}/evidence/public/xprize_home_vimport_scrape.json"
+  DEVPOST_LOGIN_SCRAPE_PATH: "${PROJECT_DIR}/evidence/public/devpost_login_vimport_scrape.json"
+  DEVPOST_REGISTER_SCRAPE_PATH: "${PROJECT_DIR}/evidence/public/devpost_register_vimport_scrape.json"
+
+steps:
+  prod:
+    - action: FS.EnsureDir
+      params:
+        path: "${OUTPUT_DIR}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "browser_login_refs_prepare_start"
+        message: "Checking browser login references without reading saved passwords."
+        data:
+          profile: "${PROFILE_PATH}"
+          browser_receipt: "${BROWSER_RECEIPT_PATH}"
+
+    - action: FS.Exists
+      register: profile_exists
+      params:
+        path: "${PROFILE_PATH}"
+
+    - action: FS.Exists
+      register: browser_refs_vault_exists
+      params:
+        path: "${BROWSER_REFS_VAULT_PATH}"
+
+    - action: FS.Exists
+      register: default_edge_login_store_exists
+      params:
+        path: "${DEFAULT_EDGE_LOGIN_STORE}"
+
+    - action: FS.Exists
+      register: profile1_edge_login_store_exists
+      params:
+        path: "${PROFILE1_EDGE_LOGIN_STORE}"
+
+    - action: FS.Exists
+      register: browser_receipt_exists
+      params:
+        path: "${BROWSER_RECEIPT_PATH}"
+
+    - action: FS.Exists
+      register: edge_handoff_script_exists
+      params:
+        path: "${EDGE_HANDOFF_SCRIPT_PATH}"
+
+    - action: FS.Exists
+      register: edge_handoff_receipt_exists
+      params:
+        path: "${EDGE_HANDOFF_RECEIPT_PATH}"
+
+    - action: FS.Exists
+      register: edge_handoff_runbook_exists
+      params:
+        path: "${EDGE_HANDOFF_RUNBOOK_PATH}"
+
+    - action: FS.Exists
+      register: xprize_home_scrape_exists
+      params:
+        path: "${XPRIZE_HOME_SCRAPE_PATH}"
+
+    - action: FS.Exists
+      register: devpost_login_scrape_exists
+      params:
+        path: "${DEVPOST_LOGIN_SCRAPE_PATH}"
+
+    - action: FS.Exists
+      register: devpost_register_scrape_exists
+      params:
+        path: "${DEVPOST_REGISTER_SCRAPE_PATH}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "browser_login_refs_prepare_complete"
+        message: "Browser login references and public portal scrapes checked."
+        data:
+          profile_exists: "${profile_exists}"
+          browser_refs_vault_exists: "${browser_refs_vault_exists}"
+          default_edge_login_store_exists: "${default_edge_login_store_exists}"
+          profile1_edge_login_store_exists: "${profile1_edge_login_store_exists}"
+          browser_receipt_exists: "${browser_receipt_exists}"
+          edge_handoff_script_exists: "${edge_handoff_script_exists}"
+          edge_handoff_receipt_exists: "${edge_handoff_receipt_exists}"
+          edge_handoff_runbook_exists: "${edge_handoff_runbook_exists}"
+          xprize_home_scrape_exists: "${xprize_home_scrape_exists}"
+          devpost_login_scrape_exists: "${devpost_login_scrape_exists}"
+          devpost_register_scrape_exists: "${devpost_register_scrape_exists}"
+
+  debug:
+    - action: Note
+      params:
+        text: "Browser login refs preparation playbook is alive."

@@ -70,6 +70,10 @@ snapshot receipt, and WAIBAv profile evidence playbook.
 Credential readiness upgrade: `v0.5.5` private account seeds, profile vault
 references, public demo VImport receipt, and WAIBAv account readiness audit.
 
+Browser credential-reference upgrade: `v0.5.6` Edge login-store readiness,
+browser-password references without extraction, Devpost login/register VImport
+receipts, and WAIBAv browser login refs audit.
+
 ## Primer sprint
 
 1. Definir vertical: humanitarian ops, devtools agent o grant submission agent.

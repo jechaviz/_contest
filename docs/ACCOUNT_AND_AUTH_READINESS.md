@@ -19,6 +19,7 @@ Cloud Run deployment, and Devpost automation while keeping credentials private.
 |---|---|---|
 | `C:\git\customers\yo\profile\private\api_keys.local.yml` | Local API keys and provider secrets | Never committed |
 | `C:\git\customers\yo\profile\private\accounts.local.yml` | Generated account seed passwords | Never committed |
+| `C:\git\customers\yo\profile\private\browser_login_refs.local.yml` | Browser login references and portal auth hints | Never committed |
 
 ## Prepared Account Seeds
 
@@ -42,6 +43,13 @@ provider accounts until a provider accepts the alias and the flow is completed.
 | Cloud Run deploy | Script ready, Secret Manager path ready | Run deploy after CLI auth and project id |
 | Devpost | Payload and form map ready | Open authenticated draft, fill, save, then final-submit only with explicit confirmation |
 
+## Browser Login References
+
+Edge has login-store files available in the `Default` and `Profile 1` profiles.
+The profile now stores credential references for Google SSO, Devpost, GitHub,
+YouTube, Drive, and AI Studio. Saved passwords stay in Edge; automation uses
+existing session state or autofill in visible authorized provider flows.
+
 ## Human-Session Gates
 
 Automation may open provider pages and prefill drafts using the authorized Gmail
@@ -54,5 +62,10 @@ not a failure.
 - Account seed receipt: `evidence/public/ACCOUNT_SEED_RECEIPT.md`
 - Account seed WAIBAv trace: `automation/output/account_seed_trace.jsonl`
 - Account seed WAIBAv audit: `automation/output/waiba_account_seed_audit.json`
+- Browser login refs WAIBAv trace: `automation/output/browser_login_refs_trace.jsonl`
+- Browser login refs WAIBAv audit: `automation/output/waiba_browser_login_refs_audit.json`
 - Public demo VImport scrape: `evidence/public/public_demo_vimport_scrape.json`
 - Public demo browser receipt: `evidence/public/public_demo_browser_receipt.json`
+- Browser login reference receipt: `evidence/public/BROWSER_LOGIN_REFERENCE_RECEIPT.md`
+- Edge auth handoff receipt: `evidence/public/EDGE_AUTH_HANDOFF_RECEIPT.md`
+- Edge auth handoff runbook: `runbooks/EDGE_PROVIDER_AUTH_HANDOFF.md`

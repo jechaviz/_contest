@@ -14,6 +14,7 @@ public repo.
 - Redacted agent execution logs.
 - Redacted API usage receipts.
 - Private account seed receipt with public vault references only.
+- Browser credential-reference receipt with no password extraction.
 - Text description and category narrative.
 - Testing instructions for judges.
 - Proof sprint scoreboard and generated judge scorecard.
@@ -31,6 +32,7 @@ public repo.
 - Devpost confirmation capture.
 - Credentials for private demo, if used.
 - Generated account passwords in the private local vault.
+- Saved browser passwords remain in the browser password manager.
 
 ## Monthly Revenue Ledger
 
@@ -66,6 +68,8 @@ public repo.
   checksum references only.
 - `account_seed_receipts`: profile YAML reference, private account vault
   existence, alias inventory, and WAIBAv readiness trace with no raw passwords.
+- `browser_login_reference_receipts`: Edge login-store presence, portal
+  reference inventory, Devpost public login/register scrapes, and WAIBAv trace.
 
 ## Evidence Handling
 

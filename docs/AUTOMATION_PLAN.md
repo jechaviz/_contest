@@ -30,6 +30,15 @@ submission package is ready.
   - verifies the local profile and private account vault exist,
   - records only existence booleans and public artifact paths,
   - keeps generated passwords out of public traces.
+- `automation/waiba/browser_login_refs_prepare.playbook.yml`
+  - verifies Edge login-store presence without reading passwords,
+  - checks browser login reference vault existence,
+  - checks Devpost login/register and XPRIZE home VImport receipts.
+- `automation/browser/open_edge_auth_portals.ps1`
+  - opens provider portals in the existing Edge profile,
+  - uses Google SSO or browser autofill without password export,
+  - keeps final-submit, MFA, CAPTCHA, billing, and Terms acceptance as handoff
+    points.
 
 ## Payload Sources
 
@@ -42,6 +51,8 @@ submission package is ready.
 
 - `automation/output/devpost_draft_trace.jsonl`
 - `automation/output/account_seed_trace.jsonl`
+- `automation/output/browser_login_refs_trace.jsonl`
+- `evidence/public/EDGE_AUTH_HANDOFF_RECEIPT.md`
 - `automation/output/devpost_form_snapshot.json`
 - `automation/output/devpost_confirmation.png`
 - `automation/output/submission_receipt.json`

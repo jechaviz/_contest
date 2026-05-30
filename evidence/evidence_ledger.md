@@ -45,9 +45,15 @@ local secure storage, not public repo content.
 | Judge test guide | active | `docs/JUDGE_TEST_GUIDE.md` | CLI, Playwright, WAIBAv receipts |
 | Founder profile proof | active redacted | `evidence/public/FOUNDER_PROOF.generated.md` | `C:\git\customers\yo\profile` |
 | Account seed receipt | active private-seed receipt | `evidence/public/ACCOUNT_SEED_RECEIPT.md` | `C:\git\customers\yo\profile\private\accounts.local.yml` |
+| Browser login reference receipt | active credential-reference receipt | `evidence/public/BROWSER_LOGIN_REFERENCE_RECEIPT.md` | Edge password manager and private browser refs vault |
+| Edge auth handoff receipt | active visible handoff | `evidence/public/EDGE_AUTH_HANDOFF_RECEIPT.md` | `automation/browser/open_edge_auth_portals.ps1` |
+| XPRIZE home VImport scrape | active public scrape | `evidence/public/xprize_home_vimport_scrape.json` | VImport scrape of Devpost XPRIZE home |
+| Devpost login VImport scrape | active public scrape | `evidence/public/devpost_login_vimport_scrape.json` | VImport scrape of Devpost login |
+| Devpost register VImport scrape | active public scrape | `evidence/public/devpost_register_vimport_scrape.json` | VImport scrape of Devpost register |
 | FacturaMX AI Studio access receipt | active access-gated | `evidence/public/facturamx_ai_studio_scrape.json` | VImport scrape of AI Studio URL |
 | Profile evidence WAIBAv trace | active | `automation/output/profile_evidence_trace.jsonl` | `automation/waiba/profile_evidence_prepare.playbook.yml` |
 | Account seed WAIBAv trace | active | `automation/output/account_seed_trace.jsonl` | `automation/waiba/account_seed_prepare.playbook.yml` |
+| Browser login refs WAIBAv trace | active | `automation/output/browser_login_refs_trace.jsonl` | `automation/waiba/browser_login_refs_prepare.playbook.yml` |
 | Cloud Run deploy WAIBAv trace | active | `automation/output/cloudrun_deploy_probe_trace.jsonl` | `automation/waiba/cloudrun_deploy_probe.playbook.yml` |
 | Veloclaw Git snapshot | active read-only | `evidence/public/VELOCLAW_GIT_SNAPSHOT.md` | private Veloclaw state vault |
 | Profile privacy boundary | active | `docs/PROFILE_PRIVACY_BOUNDARY.md` | private data policy |
