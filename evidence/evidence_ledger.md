@@ -21,8 +21,9 @@ local secure storage, not public repo content.
 |---|---|---|---|
 | V manifest | active | `evidence/public/manifest.json` | `C:\git\v_projects\contestops_ai\out` |
 | Official rules scrape | active | `evidence/public/xprize_rules_scrape.json` | VImport scrape of Devpost rules |
-| Gemini call | active mock receipt | `evidence/public/gemini_receipt_redacted.json` | `evidence/private/gemini` |
-| Google Cloud deploy | planned | `evidence/public/cloud_run_redacted.md` | `evidence/private/google_cloud` |
+| Gemini call | active env-backed receipt | `evidence/public/gemini_receipt_redacted.json` | private profile vault |
+| Google Cloud SDK install | active | `evidence/public/GCLOUD_INSTALL_RECEIPT.md` | local SDK install |
+| Google Cloud deploy | auth pending | `evidence/public/cloud_run_redacted.md` | `evidence/private/google_cloud` |
 | Agent run logs | active draft trace | `automation/output/devpost_draft_trace.jsonl` | `automation/output` |
 | Revenue May | planned | checksum only | `evidence/private/revenue/may` |
 | Revenue June | planned | checksum only | `evidence/private/revenue/june` |

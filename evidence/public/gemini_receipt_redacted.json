@@ -1,8 +1,9 @@
 {
-  "provider": "mock_gemini",
+  "provider": "gemini_api",
   "model": "gemini-2.5-flash",
   "prompt_hash": "fd9d2a65",
-  "content": "ContestOps AI plan accepted: Create the next Build with Gemini XPRIZE execution step for ContestOps AI.",
-  "mock": true,
+  "content_preview": "Okay, ContestOps AI, it's time to transition from initial problem framing and resource provisioning to the first critical assessment point for the \"Build with Gemini XPRIZE.\"  ---  ## XPRIZE Execution Step: Iteration 1 P...",
+  "content_hash": "c41fa201",
+  "mock": false,
   "status_code": 200
 }
