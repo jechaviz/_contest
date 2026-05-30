@@ -13,6 +13,7 @@ public repo.
 - Screenshots of dashboard and workflow.
 - Redacted agent execution logs.
 - Redacted API usage receipts.
+- Private account seed receipt with public vault references only.
 - Text description and category narrative.
 - Testing instructions for judges.
 - Proof sprint scoreboard and generated judge scorecard.
@@ -29,6 +30,7 @@ public repo.
 - Corporate ID if submitting as organization.
 - Devpost confirmation capture.
 - Credentials for private demo, if used.
+- Generated account passwords in the private local vault.
 
 ## Monthly Revenue Ledger
 
@@ -62,6 +64,8 @@ public repo.
 - `profile_proof_receipts`: redacted CV/project signals, VImport access-gate
   scrape, Veloclaw snapshot receipt, WAIBAv profile evidence trace, and private
   checksum references only.
+- `account_seed_receipts`: profile YAML reference, private account vault
+  existence, alias inventory, and WAIBAv readiness trace with no raw passwords.
 
 ## Evidence Handling
 

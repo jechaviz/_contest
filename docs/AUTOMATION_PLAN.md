@@ -26,6 +26,10 @@ submission package is ready.
   - saves draft,
   - captures screenshots and DOM snapshots,
   - submits final form when the final package flag is present.
+- `automation/waiba/account_seed_prepare.playbook.yml`
+  - verifies the local profile and private account vault exist,
+  - records only existence booleans and public artifact paths,
+  - keeps generated passwords out of public traces.
 
 ## Payload Sources
 
@@ -37,6 +41,7 @@ submission package is ready.
 ## Receipts
 
 - `automation/output/devpost_draft_trace.jsonl`
+- `automation/output/account_seed_trace.jsonl`
 - `automation/output/devpost_form_snapshot.json`
 - `automation/output/devpost_confirmation.png`
 - `automation/output/submission_receipt.json`

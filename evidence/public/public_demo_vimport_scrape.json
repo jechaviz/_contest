@@ -1,0 +1,24 @@
+{
+  "schema": "vimport.generic_scrape.v1",
+  "run_id": "2026-05-29_200825",
+  "target": "https://jechaviz.github.io/contestops_ai_web/",
+  "status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "body_bytes": 1517,
+  "title": "ContestOps AI",
+  "description": "",
+  "headings": [],
+  "links": [
+  ],
+  "images": [
+  ],
+  "tables": [
+  ],
+  "json_ld_count": 0,
+  "json_ld": [],
+  "text": "ContestOps AI",
+  "gaps": [
+    {"id":"dynamic_render_gap","kind":"rendering","evidence":"dynamic app markers found without extracted structure","next_attempt_action":"ai_schedule_browser_or_network_probe","ai_repair_hint":"Use AI to infer render waits, network endpoints, or DOM state targets for the next attempt."}
+  ],
+  "ai_gap_repair": {"enabled":true,"progressive":true,"automatic_next_attempt":true,"attempt":1,"next_attempt":2,"mode":"ai_gap_repair_next_attempt","gap_ids":["dynamic_render_gap"],"actions":["ai_schedule_browser_or_network_probe","rewrite_extraction_hints_from_gap_receipt"],"receipt":"ai_gap_repair_plan"}
+}

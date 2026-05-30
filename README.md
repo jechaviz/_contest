@@ -67,6 +67,9 @@ Profile evidence upgrade: `v0.5.1` redacted founder profile proof, dogfood
 case inventory, privacy boundary, VImport access-gate receipt, Veloclaw
 snapshot receipt, and WAIBAv profile evidence playbook.
 
+Credential readiness upgrade: `v0.5.5` private account seeds, profile vault
+references, public demo VImport receipt, and WAIBAv account readiness audit.
+
 ## Primer sprint
 
 1. Definir vertical: humanitarian ops, devtools agent o grant submission agent.
@@ -89,6 +92,7 @@ snapshot receipt, and WAIBAv profile evidence playbook.
 - [Judge test guide](docs/JUDGE_TEST_GUIDE.md)
 - [Founder profile evidence](docs/FOUNDER_PROFILE_EVIDENCE.md)
 - [Profile privacy boundary](docs/PROFILE_PRIVACY_BOUNDARY.md)
+- [Account and auth readiness](docs/ACCOUNT_AND_AUTH_READINESS.md)
 - [Primer paquete de archivos](docs/FIRST_FILE_PACKET.md)
 - [Automatizacion externa](docs/AUTOMATION_PLAN.md)
 - [Draft de submission](submission/devpost_submission_draft.md)

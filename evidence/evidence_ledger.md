@@ -27,6 +27,8 @@ local secure storage, not public repo content.
 | Google Cloud deploy probe | active auth pending | `evidence/public/CLOUDRUN_DEPLOY_PROBE.md` | deploy script + WAIBAv trace |
 | Google Cloud deploy | auth pending | `evidence/public/cloud_run_redacted.md` | `evidence/private/google_cloud` |
 | Public demo | active | `evidence/public/PUBLIC_DEMO_RECEIPT.md` | GitHub Pages |
+| Public demo VImport scrape | active static SPA receipt | `evidence/public/public_demo_vimport_scrape.json` | VImport scrape of GitHub Pages demo |
+| Public demo browser receipt | active rendered SPA receipt | `evidence/public/public_demo_browser_receipt.json` | Playwright browser check of GitHub Pages demo |
 | Agent run logs | active draft trace | `automation/output/devpost_draft_trace.jsonl` | `automation/output` |
 | Revenue May | planned | checksum only | `evidence/private/revenue/may` |
 | Revenue June | planned | checksum only | `evidence/private/revenue/june` |
@@ -42,9 +44,12 @@ local secure storage, not public repo content.
 | Proof sprint | active | `docs/PROOF_SPRINT.md` | `contestops_ai proof-sprint` |
 | Judge test guide | active | `docs/JUDGE_TEST_GUIDE.md` | CLI, Playwright, WAIBAv receipts |
 | Founder profile proof | active redacted | `evidence/public/FOUNDER_PROOF.generated.md` | `C:\git\customers\yo\profile` |
+| Account seed receipt | active private-seed receipt | `evidence/public/ACCOUNT_SEED_RECEIPT.md` | `C:\git\customers\yo\profile\private\accounts.local.yml` |
 | FacturaMX AI Studio access receipt | active access-gated | `evidence/public/facturamx_ai_studio_scrape.json` | VImport scrape of AI Studio URL |
 | Profile evidence WAIBAv trace | active | `automation/output/profile_evidence_trace.jsonl` | `automation/waiba/profile_evidence_prepare.playbook.yml` |
+| Account seed WAIBAv trace | active | `automation/output/account_seed_trace.jsonl` | `automation/waiba/account_seed_prepare.playbook.yml` |
 | Cloud Run deploy WAIBAv trace | active | `automation/output/cloudrun_deploy_probe_trace.jsonl` | `automation/waiba/cloudrun_deploy_probe.playbook.yml` |
+| Veloclaw Git snapshot | active read-only | `evidence/public/VELOCLAW_GIT_SNAPSHOT.md` | private Veloclaw state vault |
 | Profile privacy boundary | active | `docs/PROFILE_PRIVACY_BOUNDARY.md` | private data policy |
 | External feasibility probe | active | `evidence/public/EXTERNAL_FEASIBILITY_PROBE.md` | local env/gcloud checks |
 

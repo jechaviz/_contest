@@ -1,0 +1,76 @@
+metadata:
+  name: contestops-account-seed-prepare
+
+variables:
+  PROJECT_DIR: "${ROOT_PLAYBOOK_DIR}/../.."
+  OUTPUT_DIR: "${PROJECT_DIR}/automation/output"
+  TRACE_PATH: "${OUTPUT_DIR}/account_seed_trace.jsonl"
+  PROFILE_PATH: "C:/git/customers/yo/profile/jecha_profile.yml"
+  ACCOUNT_VAULT_PATH: "C:/git/customers/yo/profile/private/accounts.local.yml"
+  READINESS_DOC_PATH: "${PROJECT_DIR}/docs/ACCOUNT_AND_AUTH_READINESS.md"
+  SEED_RECEIPT_PATH: "${PROJECT_DIR}/evidence/public/ACCOUNT_SEED_RECEIPT.md"
+  PUBLIC_DEMO_SCRAPE_PATH: "${PROJECT_DIR}/evidence/public/public_demo_vimport_scrape.json"
+  PUBLIC_DEMO_BROWSER_RECEIPT_PATH: "${PROJECT_DIR}/evidence/public/public_demo_browser_receipt.json"
+
+steps:
+  prod:
+    - action: FS.EnsureDir
+      params:
+        path: "${OUTPUT_DIR}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "account_seed_prepare_start"
+        message: "Checking account seed readiness without exposing credentials."
+        data:
+          profile: "${PROFILE_PATH}"
+          readiness_doc: "${READINESS_DOC_PATH}"
+
+    - action: FS.Exists
+      register: profile_exists
+      params:
+        path: "${PROFILE_PATH}"
+
+    - action: FS.Exists
+      register: account_vault_exists
+      params:
+        path: "${ACCOUNT_VAULT_PATH}"
+
+    - action: FS.Exists
+      register: readiness_doc_exists
+      params:
+        path: "${READINESS_DOC_PATH}"
+
+    - action: FS.Exists
+      register: seed_receipt_exists
+      params:
+        path: "${SEED_RECEIPT_PATH}"
+
+    - action: FS.Exists
+      register: public_demo_scrape_exists
+      params:
+        path: "${PUBLIC_DEMO_SCRAPE_PATH}"
+
+    - action: FS.Exists
+      register: public_demo_browser_receipt_exists
+      params:
+        path: "${PUBLIC_DEMO_BROWSER_RECEIPT_PATH}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "account_seed_prepare_complete"
+        message: "Account seed and auth readiness assets checked."
+        data:
+          profile_exists: "${profile_exists}"
+          account_vault_exists: "${account_vault_exists}"
+          readiness_doc_exists: "${readiness_doc_exists}"
+          seed_receipt_exists: "${seed_receipt_exists}"
+          public_demo_scrape_exists: "${public_demo_scrape_exists}"
+          public_demo_browser_receipt_exists: "${public_demo_browser_receipt_exists}"
+
+  debug:
+    - action: Note
+      params:
+        text: "Account seed preparation playbook is alive."

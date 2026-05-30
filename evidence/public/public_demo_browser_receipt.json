@@ -1,0 +1,35 @@
+{
+  "schema": "contestops.public_demo_browser_receipt.v1",
+  "captured_at": "2026-05-30T02:26:50.085Z",
+  "target": "https://jechaviz.github.io/contestops_ai_web/",
+  "renderer": "playwright.chromium",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "title": "ContestOps AI",
+  "tabs": [
+    "Runs",
+    "Rules",
+    "Evidence",
+    "Automation",
+    "Proof",
+    "Battle"
+  ],
+  "headings": [
+    "ContestOps AI",
+    "Judge Score",
+    "Competitors"
+  ],
+  "checks": {
+    "contestops_visible": true,
+    "proof_sprint_visible": true,
+    "paid_pilot_visible": true,
+    "battleplan_visible": true,
+    "gemini_visible": true,
+    "evidence_visible": true
+  },
+  "text_sample": "CO ContestOps AI 0.5.0 86% Prod Runs Rules Evidence Automation Proof Battle 2026-05-29 Proof sprint package BUILD WITH GEMINI XPRIZE ContestOps AI Entrepreneurship & Job Creation - 2026-08-17 1:00 PM PDT Readiness 86% Rules 24/32 Evidence 19/26 Users 0/3 Revenue 0/3 Runs Rules Evidence Automation Proof Battle Execution Ledger 2026-05-29 Rules package done 2026-05-29 V manifest done 2026-05-29 Gemini smoke mock 2026-05-29 Cloud Run API done 2026-05-29 Judge scorecard done 2026-05-29 Proof sprint package done CO ContestOps AI 0.5.0 86% Prod Runs Rules Evidence Automation Proof Battle 2026-05-29 Proof sprint package BUILD WITH GEMINI XPRIZE ContestOps AI Entrepreneurship & Job Creation - 2026-08-17 1:00 PM PDT Readiness 86% Rules 24/32 Evidence 19/26 Users 0/3 Revenue 0/3 Runs Rules Evidence Automation Proof Battle Proof Sprint 2026-06-01 to 2026-06-15 Convert the package into buyer, user, ",
+  "screenshot": "evidence/public/public_demo_rendered.png",
+  "errors": []
+}
