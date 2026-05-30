@@ -13,6 +13,7 @@ variables:
   EDGE_HANDOFF_SCRIPT_PATH: "${PROJECT_DIR}/automation/browser/open_edge_auth_portals.ps1"
   EDGE_HANDOFF_RECEIPT_PATH: "${PROJECT_DIR}/evidence/public/EDGE_AUTH_HANDOFF_RECEIPT.md"
   EDGE_HANDOFF_RUNBOOK_PATH: "${PROJECT_DIR}/runbooks/EDGE_PROVIDER_AUTH_HANDOFF.md"
+  EDGE_DEVPOST_HANDOFF_LAUNCH_PATH: "${PROJECT_DIR}/automation/output/edge_devpost_handoff_launch.json"
   XPRIZE_HOME_SCRAPE_PATH: "${PROJECT_DIR}/evidence/public/xprize_home_vimport_scrape.json"
   DEVPOST_LOGIN_SCRAPE_PATH: "${PROJECT_DIR}/evidence/public/devpost_login_vimport_scrape.json"
   DEVPOST_REGISTER_SCRAPE_PATH: "${PROJECT_DIR}/evidence/public/devpost_register_vimport_scrape.json"
@@ -73,6 +74,11 @@ steps:
         path: "${EDGE_HANDOFF_RUNBOOK_PATH}"
 
     - action: FS.Exists
+      register: edge_devpost_handoff_launch_exists
+      params:
+        path: "${EDGE_DEVPOST_HANDOFF_LAUNCH_PATH}"
+
+    - action: FS.Exists
       register: xprize_home_scrape_exists
       params:
         path: "${XPRIZE_HOME_SCRAPE_PATH}"
@@ -101,6 +107,7 @@ steps:
           edge_handoff_script_exists: "${edge_handoff_script_exists}"
           edge_handoff_receipt_exists: "${edge_handoff_receipt_exists}"
           edge_handoff_runbook_exists: "${edge_handoff_runbook_exists}"
+          edge_devpost_handoff_launch_exists: "${edge_devpost_handoff_launch_exists}"
           xprize_home_scrape_exists: "${xprize_home_scrape_exists}"
           devpost_login_scrape_exists: "${devpost_login_scrape_exists}"
           devpost_register_scrape_exists: "${devpost_register_scrape_exists}"

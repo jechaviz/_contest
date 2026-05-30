@@ -30,3 +30,10 @@ state and browser autofill; it does not read or export saved passwords.
 Use this script to reach Devpost or Google Cloud with the existing Edge session,
 then let the provider flow determine whether a new account, SSO link, or saved
 password autofill is available.
+
+## Launch Receipt
+
+- Devpost Edge launch receipt: `automation/output/edge_devpost_handoff_launch.json`
+- Portal group: `devpost`
+- Edge profile: `Default`
+- Opened surfaces: Devpost login, Devpost register, XPRIZE home

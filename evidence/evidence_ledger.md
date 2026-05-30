@@ -47,6 +47,7 @@ local secure storage, not public repo content.
 | Account seed receipt | active private-seed receipt | `evidence/public/ACCOUNT_SEED_RECEIPT.md` | `C:\git\customers\yo\profile\private\accounts.local.yml` |
 | Browser login reference receipt | active credential-reference receipt | `evidence/public/BROWSER_LOGIN_REFERENCE_RECEIPT.md` | Edge password manager and private browser refs vault |
 | Edge auth handoff receipt | active visible handoff | `evidence/public/EDGE_AUTH_HANDOFF_RECEIPT.md` | `automation/browser/open_edge_auth_portals.ps1` |
+| Edge Devpost handoff launch | active visible launch | `automation/output/edge_devpost_handoff_launch.json` | Edge Default profile |
 | XPRIZE home VImport scrape | active public scrape | `evidence/public/xprize_home_vimport_scrape.json` | VImport scrape of Devpost XPRIZE home |
 | Devpost login VImport scrape | active public scrape | `evidence/public/devpost_login_vimport_scrape.json` | VImport scrape of Devpost login |
 | Devpost register VImport scrape | active public scrape | `evidence/public/devpost_register_vimport_scrape.json` | VImport scrape of Devpost register |
